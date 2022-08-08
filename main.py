@@ -1,3 +1,5 @@
+# Preambulo
+
 from pickle import FALSE
 import requests
 import pandas as pd
@@ -26,7 +28,8 @@ df = df[0].copy()
 # Limpar as linhas com objetos nulos. um objeto nulo não é igual nada nem ele mesmo
 df = df[df['Bola1'] == df['Bola1']]
 
-# Análise
+# Análise #
+
 
 nr_pop = list(range(1,26))
 
